@@ -69,7 +69,7 @@ if ($result->num_rows > 0) {
 }
 }
 
-$con->close();
+mysqli_close($con);
 ?>
 
     

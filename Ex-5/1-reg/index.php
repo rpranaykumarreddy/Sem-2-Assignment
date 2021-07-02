@@ -70,8 +70,7 @@ if (mysqli_num_rows($mach) > 0) {
   echo "Error: ". mysqli_error($con);
 }
 }
-
-$con->close();
+mysqli_close($con);
 }else{
     echo("");
 }
